@@ -1,0 +1,89 @@
+html{
+    font-size: 62.5%;
+}
+
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    background: linear-gradient(135deg, #461cb4,#6f8ac6);
+    width: 100%;
+    height: 100vh;
+    padding:2rem;
+}
+
+.content{
+    margin-top: 18%;
+    margin-left: 10%;
+}
+
+.content h1{
+    color: #fff;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+.content h1 span{
+    color: #fdf564;
+}
+
+.dateField{
+    padding: 3rem;
+    background-color: rgba(225,225,225,0.3);
+    width: 90%;
+    max-width: 60rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.dateField input{
+    flex: 1;
+    margin-right: 2rem;
+    padding: 1.4rem 2rem;
+    border:0;
+    outline: 0;
+    border-radius: 1rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.dateField button{
+    border: 0;
+    outline: 0;
+    padding: 1.4rem;
+    border-radius: 1rem;
+    font-weight: 500;
+    background-color: #fdf564;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.dateField input::-webkit-calendar-picker-indicator{
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width:auto;
+    height:auto;
+    background-position: calc(100% - 1rem);
+    background-size: 3rem;
+    cursor: pointer;
+    
+}
+
+.age{
+    font-size: 2rem;
+    color: #fff;
+}
+
+.age span{
+    color: #fdf564
+}
